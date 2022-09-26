@@ -1,6 +1,3 @@
-console.log('Js file working');
-console.log('Done');
-
 const weatherForm = document.querySelector('form')
 const inputField = document.querySelector('input')
 const messageOne = document.getElementById('message-1')
