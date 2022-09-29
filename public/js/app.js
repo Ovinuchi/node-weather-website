@@ -17,7 +17,7 @@ weatherForm.addEventListener('submit', (e) => {
                 return messageOne.innerText = data.error;
             }
             messageOne.innerText = data.location
-            messageTwo.innerText = `${data.forecast.desc.toUpperCase()}. It's currently ${data.forecast.temp}, but it feels like ${data.forecast.temp_feels_like}`
+            messageTwo.innerText = `${data.forecast.desc.toUpperCase()}. It's currently ${data.forecast.temp}, but it feels like ${data.forecast.temp_feels_like}. The wind speed is ${data.forecast.wind_speed}`
         })
     })
 
